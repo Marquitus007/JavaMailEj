@@ -12,9 +12,9 @@ package javamailej;
 public class MainMail {
     public static void main(String[] args){
         Mail correo = new Mail();
-        correo.setCorreoFrom("correo.com");
+        correo.setCorreoFrom("mail.com");
         correo.setContraseña("password");
-        correo.crearEmail("correo@gmail.com", "PRUEBA", "HOLA");
+        correo.crearEmail("mail@gmail.com", "PRUEBA", "HOLA");
         correo.enviarMail();
     }
 }
